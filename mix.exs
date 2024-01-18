@@ -9,7 +9,7 @@ defmodule ExJenkins.Mixfile do
     [
       app: :ex_jenkins,
       version: "0.2.2",
-      elixir: "~> 1.4",
+      elixir: "~> 1.4 or ~> 1.5",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       description: @description,
